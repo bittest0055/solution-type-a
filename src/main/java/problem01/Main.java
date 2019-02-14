@@ -21,6 +21,14 @@ public class Main {
 	}
 	
 	public static int countClap(int number) {
-		return 0;
-	}
+		 	int n=1;
+			if(number%3 == 0) {
+				
+				return 1; //number로 들어온 수를 나누었을 때, 0이면 3의 배수 이다. -> 박수 짝! 한번 숫자 1 반환
+			} 
+			
+		
+		
+		return 0;  // 3의 배수가 아닐때
+	}// countClap
 }

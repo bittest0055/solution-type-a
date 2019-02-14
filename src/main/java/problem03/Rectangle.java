@@ -6,14 +6,18 @@ public class Rectangle extends Shape implements Resizable {
 
 	public Rectangle(double width, double height) {
 		System.out.println("");
+		this.width = width;
+		this.height = height;
 	}
 
 	@Override
 	public void resize(double rate) {
+		
 	}
 
 	@Override
 	public double getArea() {
+		
 		return 0.;
 	}
 
